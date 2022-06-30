@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con Racion</title>
+    <link rel="icon" href="../img/logo.jpg">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/nav_background_footer_body.css">
+    <link rel="stylesheet" href="../css/envio.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-box">
+            <h1 class="nav_elems">Con Racion</h1>
+            <a href="../index.html">
+                <img src="../img/logo.jpg" alt="Logo de Con Racion envio de comida para animales" class="nav_img" href="index.html">
+            </a>
+            <ul>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Datos de envio</h2>
+        <section class="caja1">
+            <form action="envio.php">
+                <fieldset>
+                    <legend>Formulario</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                    <br>
+                    <label for="numero">Contacto telefonico</label>
+                    <input type="text" id="numero" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email@Email.com" required>
+                    <br>
+                    <label for="direccion">Direccion de envio</label>
+                    <input type="text" id="direccion" required>
+                    <br>
+                    <label for="pedido">Contenido del pedido</label>
+                    <br>
+                    <textarea id="pedido" cols="60" rows="10"></textarea>
+                    <br>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-box"> 
+        <a href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+    </footer>
+</body>
+</html>

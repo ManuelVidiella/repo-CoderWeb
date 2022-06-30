@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.caja1{
+    height: auto;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border: double 10px black;
+    background-color: rgba(50, 101, 99, 0.8);
+}
+
+h2{
+    font-size: 3rem;
+}
+
+body main section p{
+    font-size: 2rem;
+}
+
+
