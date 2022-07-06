@@ -1,31 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Con Racion</title>
-    <link rel="icon" href="../img/logo.jpg">
+    <link rel="icon" href="img/logo.jpg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../css/nav_background_footer_body.css">
     <link rel="stylesheet" href="../css/productos.css">
 </head>
 <body>
     <header>
-        <nav class="nav-box">
-            <h1 class="nav_elems">Con Racion</h1>
-            <a href="../index.html">
-                <img src="../img/logo.jpg" alt="Logo de Con Racion envio de comida para animales" class="nav_img" href="index.html">
-            </a>
-            <ul>
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Con Racion</a>
+              <a href="../index.html">
+                <img src="../img/logo.jpg" alt="Logo de Con Racion envio de comida para animales" class="nav_img">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="envio.html">Pedido</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+    <main>
+        <section class="py-3">
+            <div class="container-fluid">
+                <h1>Productos</h1>
+                <div class="row caja1">
+                    <figure class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="../img/Comida1.jpg" alt="Comida de perro adulto 22 kg" class="w100 d-block tamano">
+                        <p>Comida de perro adulto MAX Premium Especial 22 KG</p>
+                        <p>400$</p>
+                    </figure>
+                    <figure class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="../img/comida2.png" alt="Comida de perro adulto 18 kg" class="w100 d-block tamano">
+                        <p>Comida de perro adulto Pedigree Vital 18 KG</p>
+                        <p>300$</p>
+                    </figure>
+                    <figure class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="../img/Comida3.jpg" alt="Comida de gato 25 kg" class="w100 d-block tamano">
+                        <p>Comida de gato Wits 25 KG</p>
+                        <p>223$</p>
+                    </figure>
+                    <figure class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="../img/Comida4.jpg" alt="Comida de gato adulto 10 kg" class="w100 d-block tamano">
+                        <p>Comida de gato Primogato Premium 10 KG</p>
+                        <p>120$</p>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
 
 
@@ -36,31 +78,7 @@
 
 
     
-    <main class="caja1">
-        <p>Ya sabes lo que queres pedir? Haz <a href="envio.html">Click Aqui</a> para que te lo llevemos a casa</p>
-        <section class="galeria">
-            <figure>
-                <img src="../img/Comida1.jpg" alt="Comida de perro adulto 22 kg" class="tamano">
-                <p>Comida de perro adulto MAX Premium Especial 22 KG</p>
-                <p>400$</p>
-            </figure>
-            <figure>
-                <img src="../img/comida2.png" alt="Comida de perro adulto 18 kg" class="tamano">
-                <p>Comida de perro adulto Pedigree Vital 18 KG</p>
-                <p>300$</p>
-            </figure>
-            <figure>
-                <img src="../img/Comida3.jpg" alt="Comida de gato 25 kg" class="tamano">
-                <p>Comida de gato Wits 25 KG</p>
-                <p>223$</p>
-            </figure>
-            <figure>
-                <img src="../img/Comida4.jpg" alt="Comida de gato adulto 10 kg" class="tamano">
-                <p>Comida de gato Primogato Premium 10 KG</p>
-                <p>120$</p>
-            </figure>
-        </section>
-    </main>
+    
     <footer class="footer-box"> 
         <a href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
     </footer>

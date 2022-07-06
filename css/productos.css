@@ -5,56 +5,36 @@ body main p{
 }
 
 .caja1{
-    height: auto;
-    margin: 50px auto;
-    padding: 50px 30px;
     border: double 10px black;
     background-color: rgba(50, 101, 99, 0.8);
-    text-align: center;
+    padding: 10px;
 }
 
-
-.galeria{
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+figure{
+    border: solid 3px black;
 }
 
 
 /* Responsive */
 @media only screen and (min-width: 0px){
-    .galeria{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
     figure img{
-        width: 100%;
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 420px){
+    figure img{
+        width: 60%;
     }
 }
 
 @media only screen and (min-width: 768px){
-    .galeria{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
     figure img{
         width: 60%;
     }
 }
 
 @media only screen and (min-width: 1200px){
-	
-	.galeria{
-		flex-direction: row;
-		justify-content: space-between;
-	}
     figure img{
         width: 60%;
     }
