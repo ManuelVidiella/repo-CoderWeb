@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+nav div {
+  background-color: #067c76; }
+  nav div li {
+    margin-right: 7px;
+    background: linear-gradient(to top, #165965, rgba(0, 255, 89, 0.33)); }
+    nav div li:hover {
+      background: linear-gradient(to top, #7eeeb8, #87f5af);
+      transition: all 1s;
+      cursor: pointer; }
+
+@media only screen and (min-width: 320px) {
+  .nav-box {
+    font-size: 100%; }
+  .nav_img {
+    height: 100px; }
+  header ul {
+    flex-direction: column; } }
+
+@media only screen and (min-width: 765px) {
+  .nav-box {
+    font-size: 200%; } }
+
+body {
+  background-image: url(../img/Fondo.png);
+  background-repeat: repeat; }
+  body h1, body h2, body h3 {
+    font-size: 5em; }
+  body p {
+    font-size: 3em;
+    color: #0F0E0E; }
+  body body a, body b {
+    color: #0F0E0E; }
+
+.caja {
+  height: auto;
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: double 10px #0F0E0E;
+  background-color: rgba(50, 101, 99, 0.8);
+  text-align: center; }
+
+figure {
+  border: solid 3px black; }
+
+/* Responsive */
+@media only screen and (min-width: 0px) {
+  figure img {
+    width: 95%; } }
+
+@media only screen and (min-width: 420px) {
+  figure img {
+    width: 60%; } }
+
+@media only screen and (min-width: 768px) {
+  figure img {
+    width: 60%; } }
+
+@media only screen and (min-width: 1200px) {
+  figure img {
+    width: 60%; } }
+
+.img_main_conteiner {
+  display: flex;
+  justify-content: space-evenly; }
+
+.datos_main {
+  margin: 0 auto;
+  display: flex;
+  align-items: center; }
+
+.map {
+  background-color: #067c76; }
+
+.img_main {
+  width: 50%; }
+
+/* Responsive */
+@media only screen and (min-width: 0px) {
+  .img_main {
+    width: 50%; }
+  .img_contacto {
+    width: 90%;
+    margin-bottom: 15px; }
+  .caja {
+    flex-direction: column; } }
+
+@media only screen and (min-width: 768px) {
+  .img_main {
+    width: 50%; }
+  .caja {
+    flex-direction: column; }
+  .img_contacto {
+    width: 60%; } }
+
+@media only screen and (min-width: 1200px) {
+  .img_main {
+    width: auto; }
+  .caja {
+    display: flex;
+    flex-direction: row; } }
+
+.footer-box {
+  display: flex;
+  background-color: #067c76;
+  border: outset 10px rgba(50, 101, 99, 0.8);
+  align-items: center;
+  flex-direction: column;
+  font-size: 200%; }
+
+footer a {
+  background: linear-gradient(to top, #165965, rgba(0, 255, 89, 0.33));
+  color: black;
+  border: none;
+  border-radius: 3px; }
+  footer a:hover {
+    background: linear-gradient(to top, #7eeeb8, #87f5af);
+    transition: all 1s;
+    cursor: pointer; }

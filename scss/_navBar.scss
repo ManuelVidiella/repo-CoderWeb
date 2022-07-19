@@ -1,0 +1,32 @@
+nav{
+    div{
+        background-color: $mainColor;
+        li{
+            margin-right: 7px;
+            background: linear-gradient(to top, $itemsColor);
+            &:hover{
+                background: linear-gradient(to top, $hoverColor);
+	            transition: all 1s;
+	            cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 320px){
+    .nav-box{
+        font-size: 100%;
+    }
+    .nav_img{
+        height: 100px;
+    }
+    header ul{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 765px){
+    .nav-box{
+        font-size: 200%;
+    }
+}
