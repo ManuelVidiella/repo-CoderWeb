@@ -1,26 +1,12 @@
-figure{
-    border: solid 3px black;
+.card{
+    margin: 10px 10px;
 }
 
-/* Responsive */
-@media only screen and (min-width: 0px){
-    figure img{
-        width: 95%;
-    }
-}
-@media only screen and (min-width: 420px){
-    figure img{
-        width: 60%;
-    }
-}
-@media only screen and (min-width: 768px){
-    figure img{
-        width: 60%;
-    }
-}
-@media only screen and (min-width: 1200px){
-    figure img{
-        width: 60%;
-    }
-
+.galeria{
+    margin: 50px auto;
+    padding: 50px 30px;
+    border: double 10px $black;
+    background-color: $SecondaryColor;
+    display: flex;
+    justify-content: space-evenly;
 }

@@ -21,3 +21,14 @@ body{
     background-color: $SecondaryColor;
     text-align: center;
 }
+
+.caja2{
+    height: auto;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border: double 10px $black;
+    background-color: $SecondaryColor;
+    flex-direction: column;
+}
+
+

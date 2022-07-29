@@ -40,25 +40,24 @@ body {
   background-color: rgba(50, 101, 99, 0.8);
   text-align: center; }
 
-figure {
-  border: solid 3px black; }
+.caja2 {
+  height: auto;
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: double 10px #0F0E0E;
+  background-color: rgba(50, 101, 99, 0.8);
+  flex-direction: column; }
 
-/* Responsive */
-@media only screen and (min-width: 0px) {
-  figure img {
-    width: 95%; } }
+.card {
+  margin: 10px 10px; }
 
-@media only screen and (min-width: 420px) {
-  figure img {
-    width: 60%; } }
-
-@media only screen and (min-width: 768px) {
-  figure img {
-    width: 60%; } }
-
-@media only screen and (min-width: 1200px) {
-  figure img {
-    width: 60%; } }
+.galeria {
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: double 10px #0F0E0E;
+  background-color: rgba(50, 101, 99, 0.8);
+  display: flex;
+  justify-content: space-evenly; }
 
 .img_main_conteiner {
   display: flex;
@@ -117,3 +116,18 @@ footer a {
     background: linear-gradient(to top, #7eeeb8, #87f5af);
     transition: all 1s;
     cursor: pointer; }
+
+.accordion-button {
+  background-color: #afdde7; }
+
+.caja3 {
+  height: auto;
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: double 10px #0F0E0E;
+  background-color: rgba(50, 101, 99, 0.8);
+  text-align: center; }
+
+@media only screen and (max-width: 1000px) {
+  textarea {
+    width: 40vh; } }

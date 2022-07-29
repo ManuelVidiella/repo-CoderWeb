@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Con Racion</title>
-    <link rel="icon" href="../img/logo.jpg">
+    <link rel="icon" href="../img/logo.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS-->
@@ -16,7 +16,7 @@
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">Con Racion</a>
               <a href="../index.html">
-                <img src="../img/logo.jpg" alt="Logo de Con Racion envio de comida para animales" class="nav_img">
+                <img src="../img/logo.png" alt="Logo de Con Racion envio de comida para animales" class="nav_img">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,25 +38,77 @@
           </nav>
     </header>
     <main>
-        <section class="caja">
-            <h2 class="text-titulos">Preguntas Frecuentes</h2>
-            <p>
-                <b>¿El envio tiene costo?</b> <br> No, El envio no tiene costo
-            </p>
-            <p>
-                <b>¿Cual es el horario de envios?</b> <br> Los envios son de Lunes a Sabados de 9 a 18 hrs
-            </p>
-            <p>
-                <b>¿Que hago si el producto no llego?</b> <br> Si el producto no llego por favor contactarse con nosotros mediante
-                wpp o <a href="https://www.instagram.com">instagram</a>
-            </p>
-            <p>
-                <b>¿Que metodos de pago se pueden emplear?</b> <br> Los pagos se hacen en efectivo con la entrega
-            </p>
-            <p>
-                <b>¿Hasta donde llegan?</b> <br> Los envios llegan a cualquier lugar dentro de montevideo
-            </p>
-        </section>
+      <section class="caja2">
+        <h2 class="text-titulos">Preguntas Frecuentes</h2>
+        <ul>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿El envio tiene costo?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                No, El envio no tiene costo
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Cual es el horario de envios?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Los envios son de Lunes a Sabados de 9 a 18 hrs
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Que hago si el producto no llego?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Si el producto no llego por favor contactarse con nosotros mediante wpp o instagram
+            </div>
+          </div>      
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                ¿Que metodos de pago se pueden emplear?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Los pagos se hacen en efectivo con la entrega
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                ¿Hasta donde llegan?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Los envios llegan a cualquier lugar dentro de montevideo
+              </div>
+            </div>
+          </div>
+        </div>
+        </ul>
+      </section>
     </main>
     <footer class="footer-box"> 
         <a href="preguntasfrecuentes.html">Preguntas Frecuentes</a>

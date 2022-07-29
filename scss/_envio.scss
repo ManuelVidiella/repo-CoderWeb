@@ -1,0 +1,16 @@
+.caja3{
+    height: auto;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border: double 10px $black;
+    background-color: $SecondaryColor;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    textarea{
+        width: 40vh;
+    } 
+}
+
