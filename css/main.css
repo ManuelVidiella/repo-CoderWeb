@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 nav div {
   background-color: #067c76; }
   nav div li {
@@ -99,23 +100,75 @@ body {
     display: flex;
     flex-direction: row; } }
 
-.footer-box {
-  display: flex;
-  background-color: #067c76;
-  border: outset 10px rgba(50, 101, 99, 0.8);
-  align-items: center;
-  flex-direction: column;
-  font-size: 200%; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; }
 
-footer a {
-  background: linear-gradient(to top, #165965, rgba(0, 255, 89, 0.33));
-  color: black;
-  border: none;
-  border-radius: 3px; }
-  footer a:hover {
-    background: linear-gradient(to top, #7eeeb8, #87f5af);
-    transition: all 1s;
-    cursor: pointer; }
+/*:::::Pie de Pagina*/
+.pie-pagina {
+  width: 100%;
+  background-color: #067c76; }
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px; }
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px; }
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px; }
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease; }
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: #2c6ba9; }
+
+.pie-pagina .grupo-2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff; }
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px; }
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px; } }
 
 .accordion-button {
   background-color: #afdde7; }
