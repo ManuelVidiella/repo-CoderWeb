@@ -25,11 +25,6 @@ nav div {
 body {
   background-image: url(../img/Fondo.png);
   background-repeat: repeat; }
-  body h1, body h2, body h3 {
-    font-size: 5em; }
-  body p {
-    font-size: 3em;
-    color: #0F0E0E; }
   body body a, body b {
     color: #0F0E0E; }
 
@@ -48,6 +43,20 @@ body {
   border: double 10px #0F0E0E;
   background-color: rgba(50, 101, 99, 0.8);
   flex-direction: column; }
+
+@media only screen and (min-width: 0px) {
+  h1, h2, h3 {
+    font-size: 3em; }
+  p {
+    font-size: 2em;
+    color: #0F0E0E; } }
+
+@media only screen and (min-width: 768px) {
+  h1, h2, h3 {
+    font-size: 3em; }
+  p {
+    font-size: 3em;
+    color: #0F0E0E; } }
 
 .card {
   margin: 10px 10px; }

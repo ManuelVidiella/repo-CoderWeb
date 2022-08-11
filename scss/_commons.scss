@@ -1,13 +1,6 @@
 body{
     background-image: url(../img/Fondo.png);
     background-repeat: repeat;
-    h1,h2,h3{
-        font-size: $textXxl;
-    }
-    p{
-        font-size: $textXl;
-        color: $black;
-    }
     body a,b{
         color: $black;
     }
@@ -31,4 +24,23 @@ body{
     flex-direction: column;
 }
 
+@media only screen and (min-width: 0px){
+    h1,h2,h3{
+        font-size: $textXl;
+    }
+    p{
+        font-size: $textLg;
+        color: $black;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    h1,h2,h3{
+        font-size: $textXl;
+    }
+    p{
+        font-size: $textXl;
+        color: $black;
+    }
+}
 
